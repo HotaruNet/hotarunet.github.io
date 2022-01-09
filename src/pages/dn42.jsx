@@ -26,7 +26,7 @@ export default function Dn42() {
         <h2>{d.frontmatter.title}</h2>
         <span>{d.frontmatter.sub_title}</span>
       </div>
-      <div className="card card_md">
+      <div className="card card-md">
         <div
           className="post-content"
           dangerouslySetInnerHTML={{ __html: d.html }}

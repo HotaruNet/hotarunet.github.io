@@ -1,8 +1,8 @@
 import React from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import Helmet from './helmet';
-import Header from './header';
-import Footer from './footer';
+import Helmet from './Helmet';
+import Header from './Header';
+import Footer from './Footer';
 
 export default function Layout(props) {
   return (

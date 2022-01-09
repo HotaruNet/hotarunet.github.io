@@ -4,10 +4,11 @@ import { Link } from 'gatsby';
 export default function Header() {
   return (
     <div className="header">
-      <div className="outer">
+      <div className="header-main">
         <Link to="/">Zaige Project</Link>
-        <div className="inner">
+        <div>
           <Link to="/dn42">DN42</Link>
+          {/* eslint-disable jsx-a11y/anchor-is-valid  */}
           <a href="#">ClearNet</a>
           <a href="https://www.github.com/hotarunet">GitHub</a>
         </div>
